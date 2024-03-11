@@ -1,0 +1,65 @@
+body{
+    background-image:url('images/weather4.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin:0px;
+    padding:0px;
+    height:100hv;
+}
+.container{
+    max-width:400px;
+    height:400px;
+    text-align:center;
+    margin-top:120px;
+    padding:20px;
+    margin-left:400px;
+    background-color:rgba(117, 139, 156, 0.5);
+    border-radius:10px;
+}
+h1{
+    font-size:20px;
+    font-family:'Robotto';
+    color:rgb(17, 17, 17);
+}
+input[type="text"]{
+    width:80%;
+    padding:10px;
+    margin-left:1px;
+    margin-right:3px;
+    border:none;
+    border-radius:8px;
+    text-align:center;
+    font-size:25px;
+    font-family:'Robotto';
+}
+button{
+    margin-top:15px;
+    background-color:blue;
+    border-radius:3px;
+    border:none;
+    color:#fff;
+    padding:10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+    font-weight:25px;
+    cursor:pointer;
+}
+.weather-report{
+    margin-top:20px;
+}
+.weather-report .name{
+    color:#000;
+    margin-top:20px;
+    font-weight:30px;
+    font-size:15px; 
+}
+.weather-report .temp{
+    color:#000;
+    margin-top:20px;
+    font-size:15px;
+}
+.weather-report .description{
+    margin-top:20px;
+    font-size:15px;
+    color:#000;
+}
